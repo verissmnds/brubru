@@ -7,8 +7,8 @@ st.title('Teste ECMI 2')
 st.write("Tabela")
 
 dataframe = pd.DataFrame({
-    'Nome': ['Lavinia', 'Bruna', 'Anna B', 'Nataly', 'Anna L'],
-    'Salário': [978, 18300, 2400, 4576, 1350]
+    'Nome': ['Lavinia', 'Bruna', 'Anna B', 'Nataly', 'Anna L', 'Julia'],
+    'Salário': [978, 18300, 2400, 4576, 1350, 5 48]
 })
 dataframe.style.highlight_max(axis=0)
 
